@@ -14,23 +14,26 @@ int main()
 
 void print_Pattern(int x)
 {
+    int spaces = 2* (x-1);
+
     for (int i = 0; i < x; i++)
     {
+        // Numbers
+        for (int j = 0; j < i; j++)
+        {
+            std::cout << j;
+        }
         // Spaces
-        for (int j = 0; j <= x - i - 1; j++)
+        for (int k = 0; k < spaces; k++)
         {
             std::cout << " ";
         }
-        // Stars
-        for (int k = 0; k < 2 * i + 1; k++)
+        // Numbers
+        for (int j = 0; j < i; j++)
         {
-            std::cout << "*";
-        }
-        // Spaces
-        for (int l = 0; l <= x - i - 1; l++)
-        {
-            std::cout << " ";
+            std::cout << j;
         }
         std::cout << "\n";
+        spaces -= 2;
     }
 }

@@ -14,11 +14,11 @@ int main()
 
 void print_Pattern(int x)
 {
-    for (int i = 0; i < x; i++)
+    for (int i = 1; i <= x; i++)
     {
-        for (int j = 0; j <= i; j++)
+        for (char ch = 'A'; ch <= 'A' + i; ch++)
         {
-            std::cout << ("* ");
+            std::cout << (ch) << " ";
         }
         std::cout << "\n";
     }

@@ -16,9 +16,10 @@ void print_Pattern(int x)
 {
     for (int i = 0; i < x; i++)
     {
+        char ch = 'A' + i;
         for (int j = 0; j <= i; j++)
         {
-            std::cout << ("* ");
+            std::cout << (ch) << " ";
         }
         std::cout << "\n";
     }

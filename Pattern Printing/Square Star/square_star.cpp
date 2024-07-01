@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 void print_Pattern(int x, int y);
 
