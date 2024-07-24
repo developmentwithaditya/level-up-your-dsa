@@ -1,5 +1,5 @@
-#include <iostream>
-#include <utility>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 void explainPair();
@@ -7,7 +7,6 @@ void explainPair();
 int main()
 {
 	explainPair();
-
 	return 0;
 }
 
